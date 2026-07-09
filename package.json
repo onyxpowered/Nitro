@@ -1,0 +1,58 @@
+{
+  "name": "nitro1",
+  "version": "0.1.0",
+  "description": "Nitro¹ — a WebGL2 game engine by Onyx Labs",
+  "type": "module",
+  "main": "./build/nitro.cjs",
+  "module": "./build/nitro.module.js",
+  "exports": {
+    ".": {
+      "import": "./build/nitro.module.js",
+      "require": "./build/nitro.cjs"
+    },
+    "./examples/jsm/*": "./examples/jsm/*",
+    "./addons": "./examples/jsm/Addons.js",
+    "./addons/*": "./examples/jsm/*",
+    "./src/*": "./src/*",
+    "./physics": "./build/nitro.physics.js"
+  },
+  "files": [
+    "build",
+    "examples/jsm",
+    "LEGAL.md",
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "browserslist": [
+    "> 1%, not dead, not ie 11, not op_mini all"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "build": "rollup -c utils/build/rollup.config.js",
+    "dev": "node utils/build/dev.js && node utils/server.js -p 8080",
+    "preview": "node utils/build/preview.js"
+  },
+  "keywords": [
+    "nitro",
+    "javascript",
+    "3d",
+    "game-engine",
+    "webgl",
+    "webgl2",
+    "webaudio",
+    "physics",
+    "canvas",
+    "svg",
+    "html5"
+  ],
+  "author": "Onyx Labs",
+  "license": "MIT",
+  "devDependencies": {
+    "magic-string": "^0.30.0",
+    "rollup": "^4.6.0"
+  }
+}
