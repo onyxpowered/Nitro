@@ -1,8 +1,9 @@
+// Nitro — Onyx Labs
 import { Object3D } from '../core/Object3D.js';
 import { Euler } from '../math/Euler.js';
 
 /**
- * Scenes allow you to set up what is to be rendered and where by Nitro¹.
+ * Scenes allow you to set up what is to be rendered and where by Nitro.
  * This is where you place 3D objects like meshes, lines or lights.
  *
  * @augments Object3D

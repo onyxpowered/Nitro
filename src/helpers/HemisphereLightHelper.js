@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector3 } from '../math/Vector3.js';
 import { Color } from '../math/Color.js';
 import { Object3D } from '../core/Object3D.js';

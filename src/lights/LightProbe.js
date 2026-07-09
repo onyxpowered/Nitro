@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { SphericalHarmonics3 } from '../math/SphericalHarmonics3.js';
 import { Light } from './Light.js';
 
@@ -14,7 +15,7 @@ import { Light } from './Light.js';
  * be provided in other forms e.g. by WebXR. This enables the rendering of
  * augmented reality content that reacts to real world lighting.
  *
- * The current probe implementation in Nitro¹ supports so-called diffuse
+ * The current probe implementation in Nitro supports so-called diffuse
  * light probes. This type of light probe is functionally equivalent to an
  * irradiance environment map.
  *

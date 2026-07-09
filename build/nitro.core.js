@@ -1,8 +1,9 @@
 /**
  * @license
- * Nitro¹ — By Onyx Labs
+ * Nitro — By Onyx Labs
  * SPDX-License-Identifier: MIT
  */
+// Nitro — Onyx Labs
 const REVISION = '186dev';
 
 /**
@@ -1764,6 +1765,8 @@ const Compatibility = {
  * @property {string} EITHER - Flat interpolation using either vertex.
  */
 
+// Nitro — Onyx Labs
+
 /**
  * Checks if an array contains values that require Uint32 representation.
  *
@@ -1856,7 +1859,7 @@ function createElementNS( name ) {
  * Creates a canvas element configured for block display.
  *
  * This is a convenience function that creates a canvas element with
- * display style set to 'block', which is commonly used in Nitro¹
+ * display style set to 'block', which is commonly used in Nitro
  * rendering contexts to avoid inline element spacing issues.
  *
  * @return {HTMLCanvasElement} A canvas element with display set to 'block'.
@@ -1889,7 +1892,7 @@ let _setConsoleFunction = null;
  * Sets a custom function to handle console output.
  *
  * This allows external code to intercept and handle console.log, console.warn,
- * and console.error calls made by Nitro¹, which is useful for custom logging,
+ * and console.error calls made by Nitro, which is useful for custom logging,
  * testing, or debugging workflows.
  *
  * @param {Function} fn - The function to handle console output. Should accept
@@ -2127,6 +2130,7 @@ const ReversedDepthFuncs = {
 	[ GreaterEqualDepth ]: LessEqualDepth,
 };
 
+// Nitro — Onyx Labs
 /**
  * This modules allows to dispatch event objects on custom JavaScript objects.
  *
@@ -2253,6 +2257,8 @@ class EventDispatcher {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _lut = [ '00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '0a', '0b', '0c', '0d', '0e', '0f', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '1a', '1b', '1c', '1d', '1e', '1f', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '2a', '2b', '2c', '2d', '2e', '2f', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '3a', '3b', '3c', '3d', '3e', '3f', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '4a', '4b', '4c', '4d', '4e', '4f', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '5a', '5b', '5c', '5d', '5e', '5f', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '6a', '6b', '6c', '6d', '6e', '6f', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '7a', '7b', '7c', '7d', '7e', '7f', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '8a', '8b', '8c', '8d', '8e', '8f', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '9a', '9b', '9c', '9d', '9e', '9f', 'a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'ba', 'bb', 'bc', 'bd', 'be', 'bf', 'c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'ca', 'cb', 'cc', 'cd', 'ce', 'cf', 'd0', 'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8', 'd9', 'da', 'db', 'dc', 'dd', 'de', 'df', 'e0', 'e1', 'e2', 'e3', 'e4', 'e5', 'e6', 'e7', 'e8', 'e9', 'ea', 'eb', 'ec', 'ed', 'ee', 'ef', 'f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'fa', 'fb', 'fc', 'fd', 'fe', 'ff' ];
 
@@ -2976,19 +2982,21 @@ const MathUtils = {
 	denormalize: denormalize
 };
 
+// Nitro — Onyx Labs
+
 /**
  * Class representing a 2D vector. A 2D vector is an ordered pair of numbers
  * (labeled x and y), which can be used to represent a number of things, such as:
  *
  * - A point in 2D space (i.e. a position on a plane).
- * - A direction and length across a plane. In Nitro¹ the length will
+ * - A direction and length across a plane. In Nitro the length will
  * always be the Euclidean distance(straight-line distance) from `(0, 0)` to `(x, y)`
  * and the direction is also measured from `(0, 0)` towards `(x, y)`.
  * - Any arbitrary ordered pair of numbers.
  *
  * There are other things a 2D vector can be used to represent, such as
  * momentum vectors, complex numbers and so on, however these are the most
- * common uses in Nitro¹.
+ * common uses in Nitro.
  *
  * Iterating through a vector instance will yield its components `(x, y)` in
  * the corresponding order.
@@ -3843,13 +3851,15 @@ class Vector2 {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
- * Class for representing a Quaternion. Quaternions are used in Nitro¹ to represent rotations.
+ * Class for representing a Quaternion. Quaternions are used in Nitro to represent rotations.
  *
  * Iterating through a vector instance will yield its components `(x, y, z, w)` in
  * the corresponding order.
  *
- * Note that Nitro¹ expects Quaternions to be normalized.
+ * Note that Nitro expects Quaternions to be normalized.
  * ```js
  * const quaternion = new Nitro.Quaternion();
  * quaternion.setFromAxisAngle( new Nitro.Vector3( 0, 1, 0 ), Math.PI / 2 );
@@ -4757,19 +4767,21 @@ class Quaternion {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Class representing a 3D vector. A 3D vector is an ordered triplet of numbers
  * (labeled x, y and z), which can be used to represent a number of things, such as:
  *
  * - A point in 3D space.
- * - A direction and length in 3D space. In Nitro¹ the length will
+ * - A direction and length in 3D space. In Nitro the length will
  * always be the Euclidean distance(straight-line distance) from `(0, 0, 0)` to `(x, y, z)`
  * and the direction is also measured from `(0, 0, 0)` towards `(x, y, z)`.
  * - Any arbitrary ordered triplet of numbers.
  *
  * There are other things a 3D vector can be used to represent, such as
  * momentum vectors and so on, however these are the most
- * common uses in Nitro¹.
+ * common uses in Nitro.
  *
  * Iterating through a vector instance will yield its components `(x, y, z)` in
  * the corresponding order.
@@ -6016,6 +6028,8 @@ class Vector3 {
 const _vector$c = /*@__PURE__*/ new Vector3();
 const _quaternion$5 = /*@__PURE__*/ new Quaternion();
 
+// Nitro — Onyx Labs
+
 /**
  * Represents a 3x3 matrix.
  *
@@ -6040,7 +6054,7 @@ const _quaternion$5 = /*@__PURE__*/ new Quaternion();
  * and internally all calculations are performed using column-major ordering.
  * However, as the actual ordering makes no difference mathematically and
  * most people are used to thinking about matrices in row-major order, the
- * Nitro¹ documentation shows matrices in row-major order. Just bear in
+ * Nitro documentation shows matrices in row-major order. Just bear in
  * mind that if you are reading the source code, you'll have to take the
  * transpose of any matrices outlined here to make sense of the calculations.
  */
@@ -6641,6 +6655,8 @@ class Matrix3 {
 
 const _m3 = /*@__PURE__*/ new Matrix3();
 
+// Nitro — Onyx Labs
+
 const LINEAR_REC709_TO_XYZ = /*@__PURE__*/ new Matrix3().set(
 	0.4123908, 0.3575843, 0.1804808,
 	0.2126390, 0.7151687, 0.0721923,
@@ -6853,6 +6869,8 @@ function LinearToSRGB( c ) {
 
 }
 
+// Nitro — Onyx Labs
+
 let _canvas;
 
 /**
@@ -6985,6 +7003,8 @@ class ImageUtils {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 let _sourceId = 0;
 
@@ -7210,6 +7230,8 @@ function serializeImage( image ) {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 let _textureId = 0;
 
@@ -8003,18 +8025,20 @@ Texture.DEFAULT_MAPPING = UVMapping;
  */
 Texture.DEFAULT_ANISOTROPY = 1;
 
+// Nitro — Onyx Labs
+
 /**
  * Class representing a 4D vector. A 4D vector is an ordered quadruplet of numbers
  * (labeled x, y, z and w), which can be used to represent a number of things, such as:
  *
  * - A point in 4D space.
- * - A direction and length in 4D space. In Nitro¹ the length will
+ * - A direction and length in 4D space. In Nitro the length will
  * always be the Euclidean distance(straight-line distance) from `(0, 0, 0, 0)` to `(x, y, z, w)`
  * and the direction is also measured from `(0, 0, 0, 0)` towards `(x, y, z, w)`.
  * - Any arbitrary ordered quadruplet of numbers.
  *
  * There are other things a 4D vector can be used to represent, however these
- * are the most common uses in *Nitro¹*.
+ * are the most common uses in *Nitro*.
  *
  * Iterating through a vector instance will yield its components `(x, y, z, w)` in
  * the corresponding order.
@@ -9067,6 +9091,8 @@ class Vector4 {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A render target is a buffer where the video card draws pixels for a scene
  * that is being rendered in the background. It is used in different effects,
@@ -9465,6 +9491,8 @@ class RenderTarget extends EventDispatcher {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A render target used in context of {@link NitroRenderer}.
  *
@@ -9495,6 +9523,8 @@ class WebGLRenderTarget extends RenderTarget {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates an array of textures directly from raw buffer data.
@@ -9626,6 +9656,8 @@ class DataArrayTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An array render target used in context of {@link NitroRenderer}.
  *
@@ -9669,6 +9701,8 @@ class WebGLArrayRenderTarget extends WebGLRenderTarget {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a three-dimensional texture from raw data, with parameters to
@@ -9778,6 +9812,8 @@ class Data3DTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A 3D render target used in context of {@link NitroRenderer}.
  *
@@ -9822,6 +9858,8 @@ class WebGL3DRenderTarget extends WebGLRenderTarget {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents a 4x4 matrix.
  *
@@ -9856,7 +9894,7 @@ class WebGL3DRenderTarget extends WebGLRenderTarget {
  * and internally all calculations are performed using column-major ordering.
  * However, as the actual ordering makes no difference mathematically and
  * most people are used to thinking about matrices in row-major order, the
- * Nitro¹ documentation shows matrices in row-major order. Just bear in
+ * Nitro documentation shows matrices in row-major order. Just bear in
  * mind that if you are reading the source code, you'll have to take the
  * transpose of any matrices outlined here to make sense of the calculations.
  */
@@ -11157,6 +11195,8 @@ const _x = /*@__PURE__*/ new Vector3();
 const _y = /*@__PURE__*/ new Vector3();
 const _z = /*@__PURE__*/ new Vector3();
 
+// Nitro — Onyx Labs
+
 const _matrix$2 = /*@__PURE__*/ new Matrix4();
 const _quaternion$4 = /*@__PURE__*/ new Quaternion();
 
@@ -11600,6 +11640,7 @@ class Euler {
  */
 Euler.DEFAULT_ORDER = 'XYZ';
 
+// Nitro — Onyx Labs
 /**
  * A layers object assigns an 3D object to 1 or more of 32
  * layers numbered `0` to `31` - internally the layers are stored as a
@@ -11719,6 +11760,8 @@ class Layers {
 
 }
 
+// Nitro — Onyx Labs
+
 let _object3DId = 0;
 
 const _v1$6 = /*@__PURE__*/ new Vector3();
@@ -11767,7 +11810,7 @@ const _childaddedEvent = { type: 'childadded', child: null };
 const _childremovedEvent = { type: 'childremoved', child: null };
 
 /**
- * This is the base class for most objects in Nitro¹ and provides a set of
+ * This is the base class for most objects in Nitro and provides a set of
  * properties and methods for manipulating objects in 3D space.
  *
  * @augments EventDispatcher
@@ -13394,6 +13437,8 @@ Object3D.DEFAULT_MATRIX_AUTO_UPDATE = true;
  */
 Object3D.DEFAULT_MATRIX_WORLD_AUTO_UPDATE = true;
 
+// Nitro — Onyx Labs
+
 /**
  * This is almost identical to an {@link Object3D}. Its purpose is to
  * make working with groups of objects syntactically clearer.
@@ -13431,6 +13476,8 @@ class Group extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _moveEvent = { type: 'move' };
 
@@ -13867,6 +13914,8 @@ class WebXRController {
 
 }
 
+// Nitro — Onyx Labs
+
 const _colorKeywords = { 'aliceblue': 0xF0F8FF, 'antiquewhite': 0xFAEBD7, 'aqua': 0x00FFFF, 'aquamarine': 0x7FFFD4, 'azure': 0xF0FFFF,
 	'beige': 0xF5F5DC, 'bisque': 0xFFE4C4, 'black': 0x000000, 'blanchedalmond': 0xFFEBCD, 'blue': 0x0000FF, 'blueviolet': 0x8A2BE2,
 	'brown': 0xA52A2A, 'burlywood': 0xDEB887, 'cadetblue': 0x5F9EA0, 'chartreuse': 0x7FFF00, 'chocolate': 0xD2691E, 'coral': 0xFF7F50,
@@ -13954,7 +14003,7 @@ class Color {
 	/**
 	 * Constructs a new color.
 	 *
-	 * Note that standard method of specifying color in Nitro¹ is with a hexadecimal triplet,
+	 * Note that standard method of specifying color in Nitro is with a hexadecimal triplet,
 	 * and that method is used throughout the rest of the documentation.
 	 *
 	 * @param {(number|string|Color)} [r] - The red component of the color. If `g` and `b` are
@@ -14828,6 +14877,8 @@ const _color = /*@__PURE__*/ new Color();
  */
 Color.NAMES = _colorKeywords;
 
+// Nitro — Onyx Labs
+
 /**
  * This class can be used to define an exponential squared fog,
  * which gives a clear view near the camera and a faster than exponentially
@@ -14910,6 +14961,8 @@ class FogExp2 {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class can be used to define a linear fog that grows linearly denser
@@ -15006,8 +15059,10 @@ class Fog {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
- * Scenes allow you to set up what is to be rendered and where by Nitro¹.
+ * Scenes allow you to set up what is to be rendered and where by Nitro.
  * This is where you place 3D objects like meshes, lines or lights.
  *
  * @augments Object3D
@@ -15166,6 +15221,8 @@ class Scene extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _v0$2 = /*@__PURE__*/ new Vector3();
 const _v1$5 = /*@__PURE__*/ new Vector3();
@@ -15701,6 +15758,8 @@ class Triangle {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Represents an axis-aligned bounding box (AABB) in 3D space.
@@ -16509,6 +16568,8 @@ function satForAxes( axes, v0, v1, v2, extents ) {
 
 }
 
+// Nitro — Onyx Labs
+
 // Fast Half Float Conversions, http://www.fox-toolkit.org/ftp/fasthalffloatconversion.pdf
 
 const _tables = /*@__PURE__*/ _generateTables();
@@ -16717,6 +16778,8 @@ class DataUtils {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$a = /*@__PURE__*/ new Vector3();
 const _vector2$1 = /*@__PURE__*/ new Vector2();
@@ -17753,6 +17816,8 @@ class Float32BufferAttribute extends BufferAttribute {
 
 }
 
+// Nitro — Onyx Labs
+
 const _box$3 = /*@__PURE__*/ new Box3();
 const _v1$3 = /*@__PURE__*/ new Vector3();
 const _v2$2 = /*@__PURE__*/ new Vector3();
@@ -18168,6 +18233,8 @@ class Sphere {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 let _id$1 = 0;
 
@@ -19636,6 +19703,8 @@ class BufferGeometry extends EventDispatcher {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * "Interleaved" means that multiple attributes, possibly of different types,
  * (e.g., position, normal, uv, color) are packed into a single array buffer.
@@ -19922,6 +19991,8 @@ class InterleavedBuffer {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$8 = /*@__PURE__*/ new Vector3();
 
@@ -20465,6 +20536,8 @@ class InterleavedBufferAttribute {
 
 }
 
+// Nitro — Onyx Labs
+
 let _materialId = 0;
 
 /**
@@ -20991,7 +21064,7 @@ class Material extends EventDispatcher {
 
 	/**
 	 * In case {@link Material#onBeforeCompile} is used, this callback can be used to identify
-	 * values of settings used in `onBeforeCompile()`, so Nitro¹ can reuse a cached
+	 * values of settings used in `onBeforeCompile()`, so Nitro can reuse a cached
 	 * shader or recompile the shader for this material as needed.
 	 *
 	 * This method can only be used when rendering with {@link NitroRenderer}.
@@ -21667,6 +21740,8 @@ class Material extends EventDispatcher {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for rendering instances of {@link Sprite}.
  *
@@ -21805,6 +21880,8 @@ class SpriteMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 let _geometry;
 
@@ -22038,6 +22115,8 @@ function transformVertex( vertexPosition, mvPosition, center, scale, sin, cos ) 
 	vertexPosition.applyMatrix4( _viewWorldMatrix );
 
 }
+
+// Nitro — Onyx Labs
 
 const _v1$2 = /*@__PURE__*/ new Vector3();
 const _v2$1 = /*@__PURE__*/ new Vector3();
@@ -22362,6 +22441,8 @@ class LOD extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$7 = /*@__PURE__*/ new Vector3();
 const _segCenter = /*@__PURE__*/ new Vector3();
@@ -23063,6 +23144,8 @@ class Ray {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for drawing geometries in a simple shaded (flat or wireframe) way.
  *
@@ -23330,6 +23413,8 @@ class MeshBasicMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _inverseMatrix$3 = /*@__PURE__*/ new Matrix4();
 const _ray$3 = /*@__PURE__*/ new Ray();
@@ -23815,6 +23900,8 @@ function checkGeometryIntersection( object, material, raycaster, ray, uv, uv1, n
 
 }
 
+// Nitro — Onyx Labs
+
 const _baseVector = /*@__PURE__*/ new Vector4();
 
 const _skinIndex = /*@__PURE__*/ new Vector4();
@@ -24174,6 +24261,8 @@ class SkinnedMesh extends Mesh {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A bone which is part of a {@link Skeleton}. The skeleton in turn is used by
  * the {@link SkinnedMesh}.
@@ -24211,6 +24300,8 @@ class Bone extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a texture directly from raw buffer data.
@@ -24295,11 +24386,13 @@ class DataTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 const _offsetMatrix = /*@__PURE__*/ new Matrix4();
 const _identityMatrix = /*@__PURE__*/ new Matrix4();
 
 /**
- * Class for representing the armatures in `Nitro¹`. The skeleton
+ * Class for representing the armatures in `Nitro`. The skeleton
  * is defined by a hierarchy of bones.
  *
  * ```js
@@ -24667,6 +24760,8 @@ class Skeleton {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An instanced version of a buffer attribute.
  *
@@ -24731,6 +24826,8 @@ class InstancedBufferAttribute extends BufferAttribute {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _instanceLocalMatrix = /*@__PURE__*/ new Matrix4();
 const _instanceWorldMatrix = /*@__PURE__*/ new Matrix4();
@@ -25134,6 +25231,8 @@ class InstancedMesh extends Mesh {
 
 }
 
+// Nitro — Onyx Labs
+
 const _vector1 = /*@__PURE__*/ new Vector3();
 const _vector2 = /*@__PURE__*/ new Vector3();
 const _normalMatrix = /*@__PURE__*/ new Matrix3();
@@ -25498,6 +25597,8 @@ class Plane {
 
 }
 
+// Nitro — Onyx Labs
+
 const _sphere$3 = /*@__PURE__*/ new Sphere();
 const _defaultSpriteCenter = /*@__PURE__*/ new Vector2( 0.5, 0.5 );
 const _vector$6 = /*@__PURE__*/ new Vector3();
@@ -25775,6 +25876,8 @@ class Frustum {
 
 }
 
+// Nitro — Onyx Labs
+
 const _projScreenMatrix$1 = /*@__PURE__*/ new Matrix4();
 
 /**
@@ -25997,6 +26100,8 @@ class FrustumArray {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 function ascIdSort( a, b ) {
 
@@ -27673,6 +27778,8 @@ class BatchedMesh extends Mesh {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for rendering line primitives.
  *
@@ -27794,6 +27901,8 @@ class LineBasicMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vStart = /*@__PURE__*/ new Vector3();
 const _vEnd = /*@__PURE__*/ new Vector3();
@@ -28113,6 +28222,8 @@ function checkIntersection( object, raycaster, ray, thresholdSq, a, b, i ) {
 
 }
 
+// Nitro — Onyx Labs
+
 const _start = /*@__PURE__*/ new Vector3();
 const _end = /*@__PURE__*/ new Vector3();
 
@@ -28181,6 +28292,8 @@ class LineSegments extends Line {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A continuous line. This is nearly the same as {@link Line} the only difference
  * is that the last vertex is connected with the first vertex in order to close
@@ -28214,6 +28327,8 @@ class LineLoop extends Line {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A material for rendering point primitives.
@@ -28356,6 +28471,8 @@ class PointsMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _inverseMatrix = /*@__PURE__*/ new Matrix4();
 const _ray = /*@__PURE__*/ new Ray();
@@ -28576,6 +28693,8 @@ function testPoint( point, index, localThresholdSq, matrixWorld, raycaster, inte
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A texture for use with a video.
  *
@@ -28699,6 +28818,8 @@ class VideoTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This class can be used as an alternative way to define video data. Instead of using
  * an instance of `HTMLVideoElement` like with `VideoTexture`, `VideoFrameTexture` expects each frame is
@@ -28767,6 +28888,8 @@ class VideoFrameTexture extends VideoTexture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class can only be used in combination with `copyFramebufferToTexture()` methods
@@ -28848,6 +28971,8 @@ class FramebufferTexture extends Texture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a texture based on data in compressed form.
@@ -28931,6 +29056,8 @@ class CompressedTexture extends Texture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a texture 2D array based on data in compressed form.
@@ -29017,6 +29144,8 @@ class CompressedArrayTexture extends CompressedTexture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Creates a cube texture based on data in compressed form.
  *
@@ -29060,6 +29189,8 @@ class CompressedCubeTexture extends CompressedTexture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a cube texture made up of six images.
@@ -29138,6 +29269,8 @@ class CubeTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Creates a texture from a canvas element.
  *
@@ -29179,6 +29312,8 @@ class CanvasTexture extends Texture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a texture from an HTML element.
@@ -29250,6 +29385,8 @@ class HTMLTexture extends Texture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class can be used to automatically save the depth information of a
@@ -29350,6 +29487,8 @@ class DepthTexture extends Texture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This class can be used to automatically save the depth information of a
  * cube rendering into a cube texture with depth format. Used for PointLight shadows.
@@ -29422,6 +29561,8 @@ class CubeDepthTexture extends DepthTexture {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents a texture created externally with the same renderer context.
  *
@@ -29471,6 +29612,8 @@ class ExternalTexture extends Texture {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A geometry class for a rectangular cuboid with a given width, height, and depth.
@@ -29686,6 +29829,8 @@ class BoxGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing a capsule.
  *
@@ -29899,6 +30044,8 @@ class CapsuleGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A simple shape of Euclidean geometry. It is constructed from a
  * number of triangular segments that are oriented around a central point and
@@ -30033,6 +30180,8 @@ class CircleGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A geometry class for representing a cylinder.
@@ -30360,6 +30509,8 @@ class CylinderGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing a cone.
  *
@@ -30426,6 +30577,8 @@ class ConeGeometry extends CylinderGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A polyhedron is a solid in three dimensions with flat faces. This class
@@ -30769,6 +30922,8 @@ class PolyhedronGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing a dodecahedron.
  *
@@ -30863,6 +31018,8 @@ class DodecahedronGeometry extends PolyhedronGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _v0 = /*@__PURE__*/ new Vector3();
 const _v1$1 = /*@__PURE__*/ new Vector3();
@@ -31036,6 +31193,8 @@ class EdgesGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * An abstract base class for creating an analytic curve object that contains methods
@@ -31546,6 +31705,8 @@ class Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A curve representing an ellipse.
  *
@@ -31800,6 +31961,8 @@ class EllipseCurve extends Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A curve representing an arc.
  *
@@ -31836,6 +31999,8 @@ class ArcCurve extends EllipseCurve {
 
 }
 
+// Nitro — Onyx Labs
+
 function CubicPoly() {
 
 	/**
@@ -31853,7 +32018,7 @@ function CubicPoly() {
 	- http://ideone.com/NoEbVM
 
 	This CubicPoly class could be used for reusing some variables and calculations,
-	but for Nitro¹ curve use, it could be possible inlined and flatten into a single function call
+	but for Nitro curve use, it could be possible inlined and flatten into a single function call
 	which can be placed in CurveUtils.
 	*/
 
@@ -32159,6 +32324,7 @@ class CatmullRomCurve3 extends Curve {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * Interpolations contains spline and Bézier functions internally used by concrete curve classes.
  *
@@ -32268,6 +32434,8 @@ function CubicBezier( t, p0, p1, p2, p3 ) {
 		CubicBezierP3( t, p3 );
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A curve representing a 2D Cubic Bezier curve.
@@ -32409,6 +32577,8 @@ class CubicBezierCurve extends Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A curve representing a 3D Cubic Bezier curve.
  *
@@ -32532,6 +32702,8 @@ class CubicBezierCurve3 extends Curve {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A curve representing a 2D line segment.
@@ -32657,6 +32829,8 @@ class LineCurve extends Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A curve representing a 3D line segment.
  *
@@ -32780,6 +32954,8 @@ class LineCurve3 extends Curve {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A curve representing a 2D Quadratic Bezier curve.
@@ -32909,6 +33085,8 @@ class QuadraticBezierCurve extends Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A curve representing a 3D Quadratic Bezier curve.
  *
@@ -33021,6 +33199,8 @@ class QuadraticBezierCurve3 extends Curve {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A curve representing a 2D spline curve.
@@ -33162,6 +33342,8 @@ class SplineCurve extends Curve {
 
 }
 
+// Nitro — Onyx Labs
+
 var Curves = /*#__PURE__*/Object.freeze({
 	__proto__: null,
 	ArcCurve: ArcCurve,
@@ -33175,6 +33357,8 @@ var Curves = /*#__PURE__*/Object.freeze({
 	QuadraticBezierCurve3: QuadraticBezierCurve3,
 	SplineCurve: SplineCurve
 });
+
+// Nitro — Onyx Labs
 
 /**
  * A base class extending {@link Curve}. `CurvePath` is simply an
@@ -33466,6 +33650,8 @@ class CurvePath extends Curve {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A 2D path representation. The class provides methods for creating paths
@@ -33786,6 +33972,8 @@ class Path extends CurvePath {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Defines an arbitrary 2d shape plane using paths with optional holes. It
  * can be used with {@link ExtrudeGeometry}, {@link ShapeGeometry}, to get
@@ -33946,6 +34134,7 @@ class Shape extends Path {
 
 }
 
+// Nitro — Onyx Labs
 /* eslint-disable */
 // copy of mapbox/earcut version 3.0.2
 // https://github.com/mapbox/earcut/tree/v3.0.2
@@ -34582,6 +34771,8 @@ function signedArea(data, start, end, dim) {
     return sum;
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An implementation of the earcut polygon triangulation algorithm.
  * The code is a port of [mapbox/earcut](https://github.com/mapbox/earcut).
@@ -34606,6 +34797,8 @@ class Earcut {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A class containing utility functions for shapes.
@@ -34717,6 +34910,8 @@ function addContour( vertices, contour ) {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates extruded geometry from a path shape.
@@ -35602,6 +35797,8 @@ function toJSON$1( shapes, options, data ) {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing an icosahedron.
  *
@@ -35672,6 +35869,8 @@ class IcosahedronGeometry extends PolyhedronGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates meshes with axial symmetry like vases. The lathe rotates around the Y axis.
@@ -35895,6 +36094,8 @@ class LatheGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing an octahedron.
  *
@@ -35961,6 +36162,8 @@ class OctahedronGeometry extends PolyhedronGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A geometry class for representing a plane.
@@ -36090,6 +36293,8 @@ class PlaneGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A class for generating a two-dimensional ring geometry.
@@ -36248,6 +36453,8 @@ class RingGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates an one-sided polygonal geometry from one or more path shapes.
@@ -36475,6 +36682,8 @@ function toJSON( shapes, data ) {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A class for generating a sphere geometry.
  *
@@ -36650,6 +36859,8 @@ class SphereGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A geometry class for representing an tetrahedron.
  *
@@ -36713,6 +36924,8 @@ class TetrahedronGeometry extends PolyhedronGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A geometry class for representing an torus.
@@ -36869,6 +37082,8 @@ class TorusGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a torus knot, the particular shape of which is defined by a pair
@@ -37070,6 +37285,8 @@ class TorusKnotGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Creates a tube that extrudes along a 3D curve.
@@ -37316,6 +37533,8 @@ class TubeGeometry extends BufferGeometry {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Can be used as a helper object to visualize a geometry as a wireframe.
  *
@@ -37489,6 +37708,8 @@ function isUniqueEdge( start, end, edges ) {
 
 }
 
+// Nitro — Onyx Labs
+
 var Geometries = /*#__PURE__*/Object.freeze({
 	__proto__: null,
 	BoxGeometry: BoxGeometry,
@@ -37513,6 +37734,8 @@ var Geometries = /*#__PURE__*/Object.freeze({
 	TubeGeometry: TubeGeometry,
 	WireframeGeometry: WireframeGeometry
 });
+
+// Nitro — Onyx Labs
 
 /**
  * This material can receive shadows, but otherwise is completely transparent.
@@ -37600,6 +37823,8 @@ class ShadowMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Provides utility functions for managing uniforms.
@@ -37749,9 +37974,13 @@ function getUnlitUniformColorSpace( renderer ) {
 
 const UniformsUtils = { clone: cloneUniforms, merge: mergeUniforms };
 
+// Nitro — Onyx Labs
 var default_vertex = "void main() {\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );\n}";
 
+// Nitro — Onyx Labs
 var default_fragment = "void main() {\n\tgl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );\n}";
+
+// Nitro — Onyx Labs
 
 /**
  * A material rendered with custom shaders. A shader is a small program written in GLSL.
@@ -38228,6 +38457,8 @@ class ShaderMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This class works just like {@link ShaderMaterial}, except that definitions
  * of built-in uniforms and attributes are not automatically prepended to the
@@ -38267,6 +38498,8 @@ class RawShaderMaterial extends ShaderMaterial {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A standard physically based material, using Metallic-Roughness workflow.
  *
@@ -38294,7 +38527,7 @@ class RawShaderMaterial extends ShaderMaterial {
  * - [Basic Theory of Physically Based Rendering](https://www.marmoset.co/posts/basic-theory-of-physically-based-rendering/)
  * - [Physically Based Rendering and You Can Too](https://www.marmoset.co/posts/physically-based-rendering-and-you-can-too/)
  *
- * Technical details of the approach used in Nitro¹ (and most other PBR systems) can be found is this
+ * Technical details of the approach used in Nitro (and most other PBR systems) can be found is this
  * [paper from Disney](https://media.disneyanimation.com/uploads/production/publication_asset/48/asset/s2012_pbs_disney_brdf_notes_v3.pdf)
  * (pdf), by Brent Burley.
  *
@@ -38726,6 +38959,8 @@ class MeshStandardMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An extension of the {@link MeshStandardMaterial}, providing more advanced
  * physically-based rendering properties:
@@ -38745,7 +38980,7 @@ class MeshStandardMaterial extends Material {
  * - Sheen: Can be used for representing cloth and fabric materials.
  *
  * As a result of these complex shading features, `MeshPhysicalMaterial` has a
- * higher performance cost, per pixel, than other Nitro¹ materials. Most
+ * higher performance cost, per pixel, than other Nitro materials. Most
  * effects are disabled by default, and add cost as they are enabled. For
  * best results, always specify an environment map when using this material.
  *
@@ -39294,6 +39529,8 @@ class MeshPhysicalMaterial extends MeshStandardMaterial {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for shiny surfaces with specular highlights.
  *
@@ -39747,6 +39984,8 @@ class MeshPhongMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material implementing toon shading.
  *
@@ -40095,6 +40334,8 @@ class MeshToonMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material that maps the normal vectors to RGB colors.
  *
@@ -40272,6 +40513,8 @@ class MeshNormalMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A material for non-shiny surfaces, without specular highlights.
@@ -40707,6 +40950,8 @@ class MeshLambertMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for drawing geometry by depth. Depth is based off of the camera
  * near and far plane. White is nearest, black is farthest.
@@ -40861,6 +41106,8 @@ class MeshDepthMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material used internally for implementing shadow mapping with
  * point lights.
@@ -40986,6 +41233,8 @@ class MeshDistanceMaterial extends Material {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This material is defined by a MatCap (or Lit Sphere) texture, which encodes the
@@ -41250,6 +41499,8 @@ class MeshMatcapMaterial extends Material {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A material for rendering line primitives.
  *
@@ -41332,6 +41583,8 @@ class LineDashedMaterial extends LineBasicMaterial {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Converts an array to a specific type.
@@ -41814,6 +42067,7 @@ class AnimationUtils {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * Abstract base class of interpolants over parametric samples.
  *
@@ -42133,6 +42387,8 @@ class Interpolant {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Fast and simple cubic spline interpolant.
  *
@@ -42288,6 +42544,8 @@ class CubicInterpolant extends Interpolant {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A basic linear interpolant.
  *
@@ -42335,6 +42593,8 @@ class LinearInterpolant extends Interpolant {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Interpolant that evaluates to the sample value at the position preceding
  * the parameter.
@@ -42364,6 +42624,8 @@ class DiscreteInterpolant extends Interpolant {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A Bezier interpolant using cubic Bezier curves with 2D control points.
@@ -42480,6 +42742,8 @@ function solveBezierParameter( x, x0, x1, x2, x3 ) {
 	return s;
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Represents a timed sequence of keyframes, which are composed of lists of
@@ -43103,6 +43367,8 @@ KeyframeTrack.prototype.ValueBufferType = Float32Array;
  */
 KeyframeTrack.prototype.DefaultInterpolation = InterpolateLinear;
 
+// Nitro — Onyx Labs
+
 /**
  * A track for boolean keyframe values.
  *
@@ -43154,6 +43420,8 @@ BooleanKeyframeTrack.prototype.DefaultInterpolation = InterpolateDiscrete;
 BooleanKeyframeTrack.prototype.InterpolantFactoryMethodLinear = undefined;
 BooleanKeyframeTrack.prototype.InterpolantFactoryMethodSmooth = undefined;
 
+// Nitro — Onyx Labs
+
 /**
  * A track for color keyframe values.
  *
@@ -43185,6 +43453,8 @@ class ColorKeyframeTrack extends KeyframeTrack {
  */
 ColorKeyframeTrack.prototype.ValueTypeName = 'color';
 
+// Nitro — Onyx Labs
+
 /**
  * A track for numeric keyframe values.
  *
@@ -43215,6 +43485,8 @@ class NumberKeyframeTrack extends KeyframeTrack {
  * @default 'number'
  */
 NumberKeyframeTrack.prototype.ValueTypeName = 'number';
+
+// Nitro — Onyx Labs
 
 /**
  * Spherical linear unit quaternion interpolant.
@@ -43258,6 +43530,8 @@ class QuaternionLinearInterpolant extends Interpolant {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A track for Quaternion keyframe values.
@@ -43305,6 +43579,8 @@ QuaternionKeyframeTrack.prototype.ValueTypeName = 'quaternion';
 // ValueBufferType is inherited
 // DefaultInterpolation is inherited;
 QuaternionKeyframeTrack.prototype.InterpolantFactoryMethodSmooth = undefined;
+
+// Nitro — Onyx Labs
 
 /**
  * A track for string keyframe values.
@@ -43357,6 +43633,8 @@ StringKeyframeTrack.prototype.DefaultInterpolation = InterpolateDiscrete;
 StringKeyframeTrack.prototype.InterpolantFactoryMethodLinear = undefined;
 StringKeyframeTrack.prototype.InterpolantFactoryMethodSmooth = undefined;
 
+// Nitro — Onyx Labs
+
 /**
  * A track for vector keyframe values.
  *
@@ -43387,6 +43665,8 @@ class VectorKeyframeTrack extends KeyframeTrack {
  * @default 'vector'
  */
 VectorKeyframeTrack.prototype.ValueTypeName = 'vector';
+
+// Nitro — Onyx Labs
 
 /**
  * A reusable set of keyframe tracks which represent an animation.
@@ -43865,6 +44145,7 @@ function parseKeyframeTrack( json ) {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * @class
  * @classdesc A simple caching system, used internally by {@link FileLoader}.
@@ -43979,6 +44260,7 @@ function isBlobURL( key ) {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * Handles and keeps track of loaded and pending data. A default global
  * instance of this class is created and used by loaders if not supplied
@@ -44312,6 +44594,8 @@ class LoadingManager {
  */
 const DefaultLoadingManager = /*@__PURE__*/ new LoadingManager();
 
+// Nitro — Onyx Labs
+
 /**
  * Abstract base class for loaders.
  *
@@ -44414,7 +44698,7 @@ class Loader {
 
 	/**
 	 * This method needs to be implemented by all concrete loaders. It holds the
-	 * logic for parsing the asset into Nitro¹ entities.
+	 * logic for parsing the asset into Nitro entities.
 	 *
 	 * @abstract
 	 * @param {any} data - The data to parse.
@@ -44530,6 +44814,8 @@ class Loader {
  * @default '__DEFAULT'
  */
 Loader.DEFAULT_MATERIAL_NAME = '__DEFAULT';
+
+// Nitro — Onyx Labs
 
 const loading = {};
 
@@ -44892,6 +45178,8 @@ class FileLoader extends Loader {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Class for loading animation clips in the JSON format. The files are internally
  * loaded via {@link FileLoader}.
@@ -44982,6 +45270,8 @@ class AnimationLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Abstract base class for loading compressed texture formats S3TC, ASTC or ETC.
@@ -45130,6 +45420,8 @@ class CompressedTextureLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _loading = new WeakMap();
 
@@ -45291,6 +45583,8 @@ class ImageLoader extends Loader {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Class for loading cube textures. Images are internally loaded via {@link ImageLoader}.
  *
@@ -45300,8 +45594,8 @@ class ImageLoader extends Loader {
  *
  * Note that, by convention, cube maps are specified in a coordinate system
  * in which positive-x is to the right when looking up the positive-z axis --
- * in other words, using a left-handed coordinate system. Since Nitro¹ uses
- * a right-handed coordinate system, environment maps used in Nitro¹ will
+ * in other words, using a left-handed coordinate system. Since Nitro uses
+ * a right-handed coordinate system, environment maps used in Nitro will
  * have pos-x and neg-x swapped.
  *
  * The loaded cube texture is in sRGB color space. Meaning {@link Texture#colorSpace}
@@ -45386,6 +45680,8 @@ class CubeTextureLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Abstract base class for loading binary texture formats RGBE, EXR or TGA.
@@ -45564,6 +45860,8 @@ class DataTextureLoader extends Loader {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Class for loading textures. Images are internally
  * loaded via {@link ImageLoader}.
@@ -45629,6 +45927,8 @@ class TextureLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Abstract base class for lights - all other light types inherit the
@@ -45711,6 +46011,8 @@ class Light extends Object3D {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A light source positioned directly above the scene, with color fading from
  * the sky color to the ground color.
@@ -45781,6 +46083,8 @@ class HemisphereLight extends Light {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _projScreenMatrix = /*@__PURE__*/ new Matrix4();
 const _lightPositionWorld = /*@__PURE__*/ new Vector3();
@@ -46121,6 +46425,8 @@ class LightShadow {
 
 }
 
+// Nitro — Onyx Labs
+
 const _position$2 = /*@__PURE__*/ new Vector3();
 const _quaternion$2 = /*@__PURE__*/ new Quaternion();
 const _scale$2 = /*@__PURE__*/ new Vector3();
@@ -46273,6 +46579,8 @@ class Camera extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _v3$1 = /*@__PURE__*/ new Vector3();
 const _minTarget = /*@__PURE__*/ new Vector2();
@@ -46675,6 +46983,8 @@ class PerspectiveCamera extends Camera {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents the shadow configuration of directional lights.
  *
@@ -46749,6 +47059,8 @@ class SpotLightShadow extends LightShadow {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This light gets emitted from a single point in one direction, along a cone
@@ -46939,6 +47251,8 @@ class SpotLight extends Light {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents the shadow configuration of point lights.
  *
@@ -46965,6 +47279,8 @@ class PointLightShadow extends LightShadow {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A light that gets emitted from a single point in all directions. A common
@@ -47092,6 +47408,8 @@ class PointLight extends Light {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Camera that uses [orthographic projection](https://en.wikipedia.org/wiki/Orthographic_projection).
@@ -47335,6 +47653,8 @@ class OrthographicCamera extends Camera {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents the shadow configuration of directional lights.
  *
@@ -47362,6 +47682,8 @@ class DirectionalLightShadow extends LightShadow {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A light that gets emitted in a specific direction. This light will behave
  * as though it is infinitely far away and the rays produced from it are all
@@ -47370,7 +47692,7 @@ class DirectionalLightShadow extends LightShadow {
  * all light rays coming from it are parallel.
  *
  * A common point of confusion for directional lights is that setting the
- * rotation has no effect. This is because Nitro¹'s DirectionalLight is the
+ * rotation has no effect. This is because Nitro's DirectionalLight is the
  * equivalent to what is often called a 'Target Direct Light' in other
  * applications.
  *
@@ -47470,6 +47792,8 @@ class DirectionalLight extends Light {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This light globally illuminates all objects in the scene equally.
  *
@@ -47508,6 +47832,8 @@ class AmbientLight extends Light {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class emits light uniformly across the face a rectangular plane.
@@ -47620,6 +47946,8 @@ class RectAreaLight extends Light {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Represents a third-order spherical harmonics (SH). Light probes use this class
@@ -47959,6 +48287,8 @@ class SphericalHarmonics3 {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Light probes are an alternative way of adding light to a 3D scene. Unlike
  * classical light sources (e.g. directional, point or spot lights), light
@@ -47972,7 +48302,7 @@ class SphericalHarmonics3 {
  * be provided in other forms e.g. by WebXR. This enables the rendering of
  * augmented reality content that reacts to real world lighting.
  *
- * The current probe implementation in Nitro¹ supports so-called diffuse
+ * The current probe implementation in Nitro supports so-called diffuse
  * light probes. This type of light probe is functionally equivalent to an
  * irradiance environment map.
  *
@@ -48029,6 +48359,8 @@ class LightProbe extends Light {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _customMaterials = {};
 
@@ -48214,6 +48546,7 @@ class MaterialLoader extends Loader {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * A class with loader utility functions.
  */
@@ -48272,6 +48605,8 @@ class LoaderUtils {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An instanced version of a geometry.
  */
@@ -48328,6 +48663,8 @@ class InstancedBufferGeometry extends BufferGeometry {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Class for loading geometries. The files are internally
@@ -48558,6 +48895,8 @@ class BufferGeometryLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _customGeometries = {};
 
@@ -49797,6 +50136,8 @@ const TEXTURE_FILTER = {
 	LinearMipmapLinearFilter: LinearMipmapLinearFilter
 };
 
+// Nitro — Onyx Labs
+
 const _errorMap = new WeakMap();
 
 /**
@@ -50015,6 +50356,7 @@ class ImageBitmapLoader extends Loader {
 
 }
 
+// Nitro — Onyx Labs
 let _context;
 
 /**
@@ -50053,6 +50395,8 @@ class AudioContext {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Class for loading audio buffers. Audios are internally
@@ -50154,6 +50498,8 @@ class AudioLoader extends Loader {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _eyeRight = /*@__PURE__*/ new Matrix4();
 const _eyeLeft = /*@__PURE__*/ new Matrix4();
@@ -50298,6 +50644,8 @@ class StereoCamera {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const fov = -90; // negative fov is not an error
 const aspect = 1;
@@ -50552,6 +50900,8 @@ class CubeCamera extends Object3D {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This type of camera can be used in order to efficiently render a scene with a
  * predefined set of cameras. This is an important performance aspect for
@@ -50603,6 +50953,7 @@ class ArrayCamera extends PerspectiveCamera {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * This class is an alternative to {@link Clock} with a different API design and behavior.
  * The goal is to avoid the conceptual flaws that became apparent in `Clock` over time.
@@ -50786,6 +51137,8 @@ function handleVisibilityChange() {
 
 }
 
+// Nitro — Onyx Labs
+
 const _position$1 = /*@__PURE__*/ new Vector3();
 const _quaternion$1 = /*@__PURE__*/ new Quaternion();
 const _scale$1 = /*@__PURE__*/ new Vector3();
@@ -50795,7 +51148,7 @@ const _up = /*@__PURE__*/ new Vector3();
 
 /**
  * The class represents a virtual listener of the all positional and non-positional audio effects
- * in the scene. A Nitro¹ application usually creates a single listener. It is a mandatory
+ * in the scene. A Nitro application usually creates a single listener. It is a mandatory
  * constructor parameter for audios entities like {@link Audio} and {@link PositionalAudio}.
  *
  * In most cases, the listener object is a child of the camera. So the 3D transformation of the
@@ -50996,6 +51349,8 @@ class AudioListener extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Represents a non-positional ( global ) audio object.
@@ -51771,6 +52126,8 @@ class Audio extends Object3D {
 
 }
 
+// Nitro — Onyx Labs
+
 const _position = /*@__PURE__*/ new Vector3();
 const _quaternion = /*@__PURE__*/ new Quaternion();
 const _scale = /*@__PURE__*/ new Vector3();
@@ -52019,6 +52376,7 @@ class PositionalAudio extends Audio {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * This class can be used to analyse audio data.
  *
@@ -52114,6 +52472,8 @@ class AudioAnalyser {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Buffered scene graph property that allows weighted accumulation; used internally.
@@ -52496,6 +52856,7 @@ class PropertyMixer {
 
 }
 
+// Nitro — Onyx Labs
 // Characters [].:/ are reserved for track binding syntax.
 const _RESERVED_CHARS_RE = '\\[\\]\\.:\\/';
 const _reservedRe = new RegExp( '[' + _RESERVED_CHARS_RE + ']', 'g' );
@@ -53287,6 +53648,8 @@ PropertyBinding.prototype.SetterByBindingTypeAndVersioning = [
 
 ];
 
+// Nitro — Onyx Labs
+
 /**
  * A group of objects that receives a shared animation state.
  *
@@ -53692,6 +54055,8 @@ class AnimationObjectGroup {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * An instance of `AnimationAction` schedules the playback of an animation which is
@@ -54635,6 +55000,8 @@ class AnimationAction {
 
 }
 
+// Nitro — Onyx Labs
+
 const _controlInterpolantsResultBuffer = new Float32Array( 1 );
 
 /**
@@ -55486,6 +55853,8 @@ class AnimationMixer extends EventDispatcher {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Represents a 3D render target.
  *
@@ -55530,6 +55899,7 @@ class RenderTarget3D extends RenderTarget {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * Represents a uniform which is a global shader variable. They are passed to shader programs.
  *
@@ -55574,6 +55944,8 @@ class Uniform {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 let _id = 0;
 
@@ -55751,6 +56123,8 @@ class UniformsGroup extends EventDispatcher {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An instanced version of an interleaved buffer.
  *
@@ -55822,6 +56196,7 @@ class InstancedInterleavedBuffer extends InterleavedBuffer {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * An alternative version of a buffer attribute with more control over the VBO.
  *
@@ -55991,6 +56366,8 @@ class GLBufferAttribute {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _matrix = /*@__PURE__*/ new Matrix4();
 
@@ -56252,6 +56629,8 @@ function intersect( object, raycaster, intersects, recursive ) {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Class for keeping track of time.
  *
@@ -56383,6 +56762,8 @@ class Clock {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class can be used to represent points in 3D space as
@@ -56528,6 +56909,7 @@ class Spherical {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * This class can be used to represent points in 3D space as
  * [Cylindrical coordinates](https://en.wikipedia.org/wiki/Cylindrical_coordinate_system).
@@ -56647,6 +57029,7 @@ class Cylindrical {
 
 }
 
+// Nitro — Onyx Labs
 /**
  * Represents a 2x2 matrix.
  *
@@ -56669,7 +57052,7 @@ class Cylindrical {
  * and internally all calculations are performed using column-major ordering.
  * However, as the actual ordering makes no difference mathematically and
  * most people are used to thinking about matrices in row-major order, the
- * Nitro¹ documentation shows matrices in row-major order. Just bear in
+ * Nitro documentation shows matrices in row-major order. Just bear in
  * mind that if you are reading the source code, you'll have to take the
  * transpose of any matrices outlined here to make sense of the calculations.
  */
@@ -56775,6 +57158,8 @@ class Matrix2 {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$4 = /*@__PURE__*/ new Vector2();
 
@@ -57154,6 +57539,8 @@ class Box2 {
 
 }
 
+// Nitro — Onyx Labs
+
 const _startP = /*@__PURE__*/ new Vector3();
 const _startEnd = /*@__PURE__*/ new Vector3();
 
@@ -57487,6 +57874,8 @@ class Line3 {
 
 }
 
+// Nitro — Onyx Labs
+
 const _vector$3 = /*@__PURE__*/ new Vector3();
 
 /**
@@ -57631,6 +58020,8 @@ class SpotLightHelper extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$2 = /*@__PURE__*/ new Vector3();
 const _boneMatrix = /*@__PURE__*/ new Matrix4();
@@ -57816,6 +58207,8 @@ function getBoneList( object ) {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * This displays a helper object consisting of a spherical mesh for
  * visualizing an instance of {@link PointLight}.
@@ -57922,6 +58315,8 @@ class PointLightHelper extends Mesh {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector$1 = /*@__PURE__*/ new Vector3();
 const _color1 = /*@__PURE__*/ new Color();
@@ -58045,6 +58440,8 @@ class HemisphereLightHelper extends Object3D {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * The helper is an object to define grids. Grids are two-dimensional
  * arrays of lines.
@@ -58118,6 +58515,8 @@ class GridHelper extends LineSegments {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This helper is an object to define polar grids. Grids are
@@ -58236,6 +58635,8 @@ class PolarGridHelper extends LineSegments {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _v1 = /*@__PURE__*/ new Vector3();
 const _v2 = /*@__PURE__*/ new Vector3();
@@ -58377,6 +58778,8 @@ class DirectionalLightHelper extends Object3D {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _vector = /*@__PURE__*/ new Vector3();
 const _camera = /*@__PURE__*/ new Camera();
@@ -58713,6 +59116,8 @@ function setPoint( point, pointMap, geometry, camera, x, y, z ) {
 
 }
 
+// Nitro — Onyx Labs
+
 const _box = /*@__PURE__*/ new Box3();
 
 /**
@@ -58854,6 +59259,8 @@ class BoxHelper extends LineSegments {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * A helper object to visualize an instance of {@link Box3}.
  *
@@ -58930,6 +59337,8 @@ class Box3Helper extends LineSegments {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * A helper object to visualize an instance of {@link Plane}.
@@ -59018,6 +59427,8 @@ class PlaneHelper extends Line {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 const _axis = /*@__PURE__*/ new Vector3();
 let _lineGeometry, _coneGeometry;
@@ -59179,6 +59590,8 @@ class ArrowHelper extends Object3D {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * An axis object to visualize the 3 axes in a simple way.
  * The X axis is red. The Y axis is green. The Z axis is blue.
@@ -59266,6 +59679,8 @@ class AxesHelper extends LineSegments {
 	}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * This class is used to convert a series of paths to an array of
@@ -59613,6 +60028,8 @@ class ShapePath {
 
 }
 
+// Nitro — Onyx Labs
+
 /**
  * Abstract base class for controls.
  *
@@ -59721,6 +60138,8 @@ class Controls extends EventDispatcher {
 	update( /* delta */ ) {}
 
 }
+
+// Nitro — Onyx Labs
 
 /**
  * Scales the texture as large as possible within its surface without cropping
@@ -60016,6 +60435,8 @@ class TextureUtils {
 
 }
 
+// Nitro — Onyx Labs
+
 if ( typeof __NITRO_DEVTOOLS__ !== 'undefined' ) {
 
 	__NITRO_DEVTOOLS__.dispatchEvent( new CustomEvent( 'register', { detail: {
@@ -60028,7 +60449,7 @@ if ( typeof window !== 'undefined' ) {
 
 	if ( window.__NITRO__ ) {
 
-		warn( 'WARNING: Multiple instances of Nitro¹ being imported.' );
+		warn( 'WARNING: Multiple instances of Nitro being imported.' );
 
 	} else {
 

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export const vertex = /* glsl */`
 uniform float scale;
 attribute float lineDistance;

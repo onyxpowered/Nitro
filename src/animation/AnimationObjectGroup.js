@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { PropertyBinding } from './PropertyBinding.js';
 import { generateUUID } from '../math/MathUtils.js';
 import { error } from '../utils.js';

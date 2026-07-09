@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { EventDispatcher } from './EventDispatcher.js';
 import { StaticDrawUsage } from '../constants.js';
 

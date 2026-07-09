@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Float32BufferAttribute } from '../core/BufferAttribute.js';
 import { BufferGeometry } from '../core/BufferGeometry.js';
 import { Object3D } from '../core/Object3D.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export * from './Nitro.Core.js';
 
 export { NitroRenderer } from './renderers/NitroRenderer.js';

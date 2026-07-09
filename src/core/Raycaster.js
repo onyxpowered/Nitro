@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Matrix4 } from '../math/Matrix4.js';
 import { Ray } from '../math/Ray.js';
 import { Layers } from './Layers.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { AnimationAction } from './AnimationAction.js';
 import { EventDispatcher } from '../core/EventDispatcher.js';
 import { LinearInterpolant } from '../math/interpolants/LinearInterpolant.js';

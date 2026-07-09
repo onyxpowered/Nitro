@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * Handles and keeps track of loaded and pending data. A default global
  * instance of this class is created and used by loaders if not supplied

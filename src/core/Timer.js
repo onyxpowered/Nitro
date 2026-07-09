@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * This class is an alternative to {@link Clock} with a different API design and behavior.
  * The goal is to avoid the conceptual flaws that became apparent in `Clock` over time.

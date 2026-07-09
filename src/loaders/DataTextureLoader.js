@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LinearFilter, LinearMipmapLinearFilter, ClampToEdgeWrapping } from '../constants.js';
 import { FileLoader } from './FileLoader.js';
 import { DataTexture } from '../textures/DataTexture.js';

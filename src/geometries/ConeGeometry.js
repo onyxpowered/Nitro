@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { CylinderGeometry } from './CylinderGeometry.js';
 
 /**

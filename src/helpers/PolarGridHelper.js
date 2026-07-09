@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LineSegments } from '../objects/LineSegments.js';
 import { LineBasicMaterial } from '../materials/LineBasicMaterial.js';
 import { Float32BufferAttribute } from '../core/BufferAttribute.js';

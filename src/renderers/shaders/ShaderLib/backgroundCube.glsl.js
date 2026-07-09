@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export const vertex = /* glsl */`
 varying vec3 vWorldDirection;
 

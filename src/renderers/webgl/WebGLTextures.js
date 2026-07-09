@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LinearFilter, LinearMipmapLinearFilter, LinearMipmapNearestFilter, NearestFilter, NearestMipmapLinearFilter, NearestMipmapNearestFilter, RGBAFormat, DepthFormat, DepthStencilFormat, UnsignedIntType, FloatType, MirroredRepeatWrapping, ClampToEdgeWrapping, RepeatWrapping, UnsignedByteType, NoColorSpace, LinearSRGBColorSpace, NeverCompare, AlwaysCompare, LessCompare, LessEqualCompare, EqualCompare, GreaterEqualCompare, GreaterCompare, NotEqualCompare, SRGBTransfer, LinearTransfer, UnsignedShortType, UnsignedInt248Type } from '../../constants.js';
 import { createElementNS, warn, error } from '../../utils.js';
 import { ColorManagement } from '../../math/ColorManagement.js';

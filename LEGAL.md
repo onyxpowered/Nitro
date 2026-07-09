@@ -1,6 +1,6 @@
 # Legal
 
-Nitro¹ is a derivative work built on a heavily modified fork of [three.js](https://github.com/mrdoob/three.js), originally MIT-licensed. The original license terms are reproduced below, as required by the MIT License, and continue to apply to the portions of this codebase derived from that project.
+Nitro is a derivative work built on a heavily modified fork of [three.js](https://github.com/mrdoob/three.js), originally MIT-licensed. The original license terms are reproduced below, as required by the MIT License, and continue to apply to the portions of this codebase derived from that project.
 
 ---
 
@@ -28,9 +28,9 @@ THE SOFTWARE.
 
 ---
 
-## Physics¹
+## Physics
 
-Nitro¹'s built-in Physics¹ module (`src/physics/`) vendors [cannon-es](https://github.com/pmndrs/cannon-es) (itself a maintained fork of the original cannon.js), also MIT-licensed. Its source lives at `src/physics/vendor/physics1.js`; the original license terms are reproduced below, as required, and continue to apply to that vendored code.
+Nitro's built-in Physics module (`src/physics/`) vendors [cannon-es](https://github.com/pmndrs/cannon-es) (itself a maintained fork of the original cannon.js), also MIT-licensed. Its source lives at `src/physics/vendor/physics1.js`; the original license terms are reproduced below, as required, and continue to apply to that vendored code.
 
 ---
 

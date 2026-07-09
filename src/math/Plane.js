@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Matrix3 } from './Matrix3.js';
 import { Vector3 } from './Vector3.js';
 

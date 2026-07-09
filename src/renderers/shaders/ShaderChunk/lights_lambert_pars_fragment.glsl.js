@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 varying vec3 vViewPosition;
 

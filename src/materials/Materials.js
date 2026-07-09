@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ShadowMaterial } from './ShadowMaterial.js';
 import { SpriteMaterial } from './SpriteMaterial.js';
 import { RawShaderMaterial } from './RawShaderMaterial.js';

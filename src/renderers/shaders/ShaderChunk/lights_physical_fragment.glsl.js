@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 PhysicalMaterial material;
 material.diffuseColor = diffuseColor.rgb;

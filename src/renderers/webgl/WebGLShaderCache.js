@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 let _id = 0;
 
 class WebGLShaderCache {

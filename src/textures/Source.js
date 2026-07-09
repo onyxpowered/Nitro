@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ImageUtils } from '../extras/ImageUtils.js';
 import { generateUUID } from '../math/MathUtils.js';
 import { warn } from '../utils.js';

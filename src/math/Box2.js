@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector2 } from './Vector2.js';
 
 const _vector = /*@__PURE__*/ new Vector2();

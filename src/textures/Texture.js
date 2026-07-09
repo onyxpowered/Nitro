@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { EventDispatcher } from '../core/EventDispatcher.js';
 import {
 	MirroredRepeatWrapping,

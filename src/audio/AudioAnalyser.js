@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * This class can be used to analyse audio data.
  *

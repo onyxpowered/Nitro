@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLProperties() {
 
 	let properties = new WeakMap();

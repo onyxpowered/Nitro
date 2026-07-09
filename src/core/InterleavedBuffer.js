@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { generateUUID } from '../math/MathUtils.js';
 import { StaticDrawUsage } from '../constants.js';
 

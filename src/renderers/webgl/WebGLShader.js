@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLShader( gl, type, string ) {
 
 	const shader = gl.createShader( type );

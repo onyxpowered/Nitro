@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector3 } from '../../math/Vector3.js';
 import { Group } from '../../objects/Group.js';
 

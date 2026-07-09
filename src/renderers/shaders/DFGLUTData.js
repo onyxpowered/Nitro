@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * Precomputed DFG LUT for Image-Based Lighting
  * Resolution: 16x16

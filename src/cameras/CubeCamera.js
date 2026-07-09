@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { WebGLCoordinateSystem, WebGPUCoordinateSystem } from '../constants.js';
 import { Object3D } from '../core/Object3D.js';
 import { PerspectiveCamera } from './PerspectiveCamera.js';

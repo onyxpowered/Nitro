@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ImageLoader } from './ImageLoader.js';
 import { Texture } from '../textures/Texture.js';
 import { Loader } from './Loader.js';

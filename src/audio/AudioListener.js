@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector3 } from '../math/Vector3.js';
 import { Quaternion } from '../math/Quaternion.js';
 import { Timer } from '../core/Timer.js';
@@ -13,7 +14,7 @@ const _up = /*@__PURE__*/ new Vector3();
 
 /**
  * The class represents a virtual listener of the all positional and non-positional audio effects
- * in the scene. A Nitro¹ application usually creates a single listener. It is a mandatory
+ * in the scene. A Nitro application usually creates a single listener. It is a mandatory
  * constructor parameter for audios entities like {@link Audio} and {@link PositionalAudio}.
  *
  * In most cases, the listener object is a child of the camera. So the 3D transformation of the

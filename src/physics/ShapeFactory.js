@@ -1,16 +1,17 @@
+// Nitro — Onyx Labs
 import { Box, ConvexPolyhedron, Cylinder, Sphere, Vec3 } from './vendor/physics1.js';
 
 /**
- * Converts common Nitro¹ geometries into their closest matching `Physics¹.Shape`.
+ * Converts common Nitro geometries into their closest matching `Physics.Shape`.
  *
  * Geometries are expected to be centered on their local origin (as produced by
- * `BoxGeometry`, `SphereGeometry`, etc. by default) since Physics¹ shapes are
+ * `BoxGeometry`, `SphereGeometry`, etc. by default) since Physics shapes are
  * always defined relative to their body's origin.
  */
 class ShapeFactory {
 
 	/**
-	 * Creates a `Physics¹.Box` matching the given `BoxGeometry`'s parameters.
+	 * Creates a `Physics.Box` matching the given `BoxGeometry`'s parameters.
 	 *
 	 * @param {BoxGeometry} geometry
 	 * @return {Box}
@@ -24,7 +25,7 @@ class ShapeFactory {
 	}
 
 	/**
-	 * Creates a `Physics¹.Sphere` matching the given `SphereGeometry`'s radius.
+	 * Creates a `Physics.Sphere` matching the given `SphereGeometry`'s radius.
 	 *
 	 * @param {SphereGeometry} geometry
 	 * @return {Sphere}
@@ -38,7 +39,7 @@ class ShapeFactory {
 	}
 
 	/**
-	 * Creates a `Physics¹.Cylinder` matching the given `CylinderGeometry`'s parameters.
+	 * Creates a `Physics.Cylinder` matching the given `CylinderGeometry`'s parameters.
 	 *
 	 * @param {CylinderGeometry} geometry
 	 * @return {Cylinder}
@@ -57,7 +58,7 @@ class ShapeFactory {
 	}
 
 	/**
-	 * Builds a `Physics¹.ConvexPolyhedron` convex hull from a `BufferGeometry`'s
+	 * Builds a `Physics.ConvexPolyhedron` convex hull from a `BufferGeometry`'s
 	 * position attribute. Intended for simple, already-convex meshes; this does
 	 * not compute a hull from arbitrary concave geometry.
 	 *

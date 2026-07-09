@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Matrix4 } from '../math/Matrix4.js';
 import { DEG2RAD } from '../math/MathUtils.js';
 import { PerspectiveCamera } from './PerspectiveCamera.js';

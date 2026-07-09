@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { DepthTexture } from './DepthTexture.js';
 import { CubeReflectionMapping, NearestFilter, UnsignedIntType, DepthFormat } from '../constants.js';
 

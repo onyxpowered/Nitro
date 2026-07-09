@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { WebGLRenderTarget } from './WebGLRenderTarget.js';
 import { Data3DTexture } from '../textures/Data3DTexture.js';
 

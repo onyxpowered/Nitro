@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { rm, mkdir, writeFile } from 'node:fs/promises';
 
 await rm( './build', { recursive: true, force: true } );

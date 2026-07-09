@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { InterpolateDiscrete } from '../../constants.js';
 import { KeyframeTrack } from '../KeyframeTrack.js';
 

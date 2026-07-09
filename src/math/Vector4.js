@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { clamp } from './MathUtils.js';
 
 /**
@@ -5,13 +6,13 @@ import { clamp } from './MathUtils.js';
  * (labeled x, y, z and w), which can be used to represent a number of things, such as:
  *
  * - A point in 4D space.
- * - A direction and length in 4D space. In Nitro¹ the length will
+ * - A direction and length in 4D space. In Nitro the length will
  * always be the Euclidean distance(straight-line distance) from `(0, 0, 0, 0)` to `(x, y, z, w)`
  * and the direction is also measured from `(0, 0, 0, 0)` towards `(x, y, z, w)`.
  * - Any arbitrary ordered quadruplet of numbers.
  *
  * There are other things a 4D vector can be used to represent, however these
- * are the most common uses in *Nitro¹*.
+ * are the most common uses in *Nitro*.
  *
  * Iterating through a vector instance will yield its components `(x, y, z, w)` in
  * the corresponding order.

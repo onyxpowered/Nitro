@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * @class
  * @classdesc A simple caching system, used internally by {@link FileLoader}.

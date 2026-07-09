@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Color } from '../math/Color.js';
 import { EventDispatcher } from '../core/EventDispatcher.js';
 import { FrontSide, NormalBlending, LessEqualDepth, AddEquation, OneMinusSrcAlphaFactor, SrcAlphaFactor, AlwaysStencilFunc, KeepStencilOp } from '../constants.js';
@@ -531,7 +532,7 @@ class Material extends EventDispatcher {
 
 	/**
 	 * In case {@link Material#onBeforeCompile} is used, this callback can be used to identify
-	 * values of settings used in `onBeforeCompile()`, so Nitro¹ can reuse a cached
+	 * values of settings used in `onBeforeCompile()`, so Nitro can reuse a cached
 	 * shader or recompile the shader for this material as needed.
 	 *
 	 * This method can only be used when rendering with {@link NitroRenderer}.

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export * from './BoxGeometry.js';
 export * from './CapsuleGeometry.js';
 export * from './CircleGeometry.js';

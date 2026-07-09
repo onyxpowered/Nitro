@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { FrontSide, BackSide, DoubleSide, NearestFilter, LinearFilter, PCFShadowMap, VSMShadowMap, NoBlending, LessEqualCompare, GreaterEqualCompare, DepthFormat, UnsignedIntType, RGFormat, HalfFloatType, FloatType, PCFSoftShadowMap } from '../../constants.js';
 import { WebGLRenderTarget } from '../WebGLRenderTarget.js';
 import { WebGLCubeRenderTarget } from '../WebGLCubeRenderTarget.js';

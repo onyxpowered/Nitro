@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BackSide, DoubleSide, CubeUVReflectionMapping, ObjectSpaceNormalMap, TangentSpaceNormalMap, NoToneMapping, NormalBlending, SRGBTransfer, RGFormat, RG11_EAC_Format, RED_GREEN_RGTC2_Format } from '../../constants.js';
 import { Layers } from '../../core/Layers.js';
 import { WebGLProgram } from './WebGLProgram.js';

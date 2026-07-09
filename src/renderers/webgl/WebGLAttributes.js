@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLAttributes( gl ) {
 
 	const buffers = new WeakMap();

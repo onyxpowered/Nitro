@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 
 float G_BlinnPhong_Implicit( /* const in float dotNL, const in float dotNV */ ) {

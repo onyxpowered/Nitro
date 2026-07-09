@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { AudioContext } from '../audio/AudioContext.js';
 import { FileLoader } from './FileLoader.js';
 import { Loader } from './Loader.js';

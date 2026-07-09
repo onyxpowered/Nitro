@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Curve } from './Curve.js';
 import * as Curves from '../curves/Curves.js';
 

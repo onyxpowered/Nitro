@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { WebGLCoordinateSystem } from '../constants.js';
 import { Frustum } from './Frustum.js';
 import { Matrix4 } from './Matrix4.js';

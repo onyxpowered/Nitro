@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { clamp, euclideanModulo, lerp } from './MathUtils.js';
 import { ColorManagement, SRGBToLinear, LinearToSRGB } from './ColorManagement.js';
 import { SRGBColorSpace } from '../constants.js';
@@ -90,7 +91,7 @@ class Color {
 	/**
 	 * Constructs a new color.
 	 *
-	 * Note that standard method of specifying color in Nitro¹ is with a hexadecimal triplet,
+	 * Note that standard method of specifying color in Nitro is with a hexadecimal triplet,
 	 * and that method is used throughout the rest of the documentation.
 	 *
 	 * @param {(number|string|Color)} [r] - The red component of the color. If `g` and `b` are

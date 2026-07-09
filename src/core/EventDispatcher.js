@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * This modules allows to dispatch event objects on custom JavaScript objects.
  *

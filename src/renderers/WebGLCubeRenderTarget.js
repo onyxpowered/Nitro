@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BackSide, LinearFilter, LinearMipmapLinearFilter, NoBlending } from '../constants.js';
 import { Mesh } from '../objects/Mesh.js';
 import { BoxGeometry } from '../geometries/BoxGeometry.js';
@@ -44,11 +45,11 @@ class WebGLCubeRenderTarget extends WebGLRenderTarget {
 		this.texture = new CubeTexture( images );
 		this._setTextureOptions( options );
 
-		// By convention -- likely based on the RenderMan spec from the 1990's -- cube maps are specified by WebGL (and Nitro¹)
+		// By convention -- likely based on the RenderMan spec from the 1990's -- cube maps are specified by WebGL (and Nitro)
 		// in a coordinate system in which positive-x is to the right when looking up the positive-z axis -- in other words,
 		// in a left-handed coordinate system. By continuing this convention, preexisting cube maps continued to render correctly.
 
-		// Nitro¹ uses a right-handed coordinate system. So environment maps used in Nitro¹ appear to have px and nx swapped
+		// Nitro uses a right-handed coordinate system. So environment maps used in Nitro appear to have px and nx swapped
 		// and the flag isRenderTargetTexture controls this conversion. The flip is not required when using WebGLCubeRenderTarget.texture
 		// as a cube texture (this is detected when isRenderTargetTexture is set to true for cube textures).
 

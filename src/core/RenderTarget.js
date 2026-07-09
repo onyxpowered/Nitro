@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { EventDispatcher } from './EventDispatcher.js';
 import { Texture } from '../textures/Texture.js';
 import { LinearFilter } from '../constants.js';

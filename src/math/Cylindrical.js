@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * This class can be used to represent points in 3D space as
  * [Cylindrical coordinates](https://en.wikipedia.org/wiki/Cylindrical_coordinate_system).

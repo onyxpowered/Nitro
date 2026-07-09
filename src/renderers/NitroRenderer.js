@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import {
 	REVISION,
 	BackSide,
@@ -429,7 +430,7 @@ class NitroRenderer {
 			};
 
 			// OffscreenCanvas does not have setAttribute, see #22811
-			if ( 'setAttribute' in canvas ) canvas.setAttribute( 'data-engine', `Nitro¹ r${REVISION}` );
+			if ( 'setAttribute' in canvas ) canvas.setAttribute( 'data-engine', `Nitro r${REVISION}` );
 
 			// event listeners must be registered before WebGL context is created, see #12753
 			canvas.addEventListener( 'webglcontextlost', onContextLost, false );
@@ -1104,7 +1105,7 @@ class NitroRenderer {
 
 		/**
 		 * Sets a compatibility node builder for rendering node materials with NitroRenderer.
-		 * This enables using TSL (Nitro¹ Shading Language) node materials to prepare
+		 * This enables using TSL (Nitro Shading Language) node materials to prepare
 		 * for migration to WebGPURenderer.
 		 *
 		 * @param {WebGLNodesHandler} nodesHandler - The node builder instance.

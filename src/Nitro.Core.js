@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { REVISION } from './constants.js';
 import { warn } from './utils.js';
 
@@ -176,7 +177,7 @@ if ( typeof window !== 'undefined' ) {
 
 	if ( window.__NITRO__ ) {
 
-		warn( 'WARNING: Multiple instances of Nitro¹ being imported.' );
+		warn( 'WARNING: Multiple instances of Nitro being imported.' );
 
 	} else {
 

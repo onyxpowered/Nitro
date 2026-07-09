@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Color } from '../math/Color.js';
 
 /**

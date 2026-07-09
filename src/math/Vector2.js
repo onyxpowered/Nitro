@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { clamp } from './MathUtils.js';
 
 /**
@@ -5,14 +6,14 @@ import { clamp } from './MathUtils.js';
  * (labeled x and y), which can be used to represent a number of things, such as:
  *
  * - A point in 2D space (i.e. a position on a plane).
- * - A direction and length across a plane. In Nitro¹ the length will
+ * - A direction and length across a plane. In Nitro the length will
  * always be the Euclidean distance(straight-line distance) from `(0, 0)` to `(x, y)`
  * and the direction is also measured from `(0, 0)` towards `(x, y)`.
  * - Any arbitrary ordered pair of numbers.
  *
  * There are other things a 2D vector can be used to represent, such as
  * momentum vectors, complex numbers and so on, however these are the most
- * common uses in Nitro¹.
+ * common uses in Nitro.
  *
  * Iterating through a vector instance will yield its components `(x, y)` in
  * the corresponding order.

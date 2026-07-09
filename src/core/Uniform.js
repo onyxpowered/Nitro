@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * Represents a uniform which is a global shader variable. They are passed to shader programs.
  *

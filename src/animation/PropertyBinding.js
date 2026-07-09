@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { warn, error } from '../utils.js';
 // Characters [].:/ are reserved for track binding syntax.
 const _RESERVED_CHARS_RE = '\\[\\]\\.:\\/';

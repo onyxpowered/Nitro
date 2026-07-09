@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * A simple pool for managing Web Workers.
  *

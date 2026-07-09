@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #if defined( USE_ENVMAP ) || defined( DISTANCE ) || defined ( USE_SHADOWMAP ) || defined ( USE_TRANSMISSION ) || NUM_SPOT_LIGHT_COORDS > 0
 

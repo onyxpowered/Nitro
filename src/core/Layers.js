@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * A layers object assigns an 3D object to 1 or more of 32
  * layers numbered `0` to `31` - internally the layers are stored as a

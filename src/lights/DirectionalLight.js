@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Light } from './Light.js';
 import { DirectionalLightShadow } from './DirectionalLightShadow.js';
 import { Object3D } from '../core/Object3D.js';
@@ -10,7 +11,7 @@ import { Object3D } from '../core/Object3D.js';
  * all light rays coming from it are parallel.
  *
  * A common point of confusion for directional lights is that setting the
- * rotation has no effect. This is because Nitro¹'s DirectionalLight is the
+ * rotation has no effect. This is because Nitro's DirectionalLight is the
  * equivalent to what is often called a 'Target Direct Light' in other
  * applications.
  *

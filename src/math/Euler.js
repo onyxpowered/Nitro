@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Quaternion } from './Quaternion.js';
 import { Matrix4 } from './Matrix4.js';
 import { clamp } from './MathUtils.js';

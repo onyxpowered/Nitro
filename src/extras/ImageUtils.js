@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { createElementNS, warn } from '../utils.js';
 import { SRGBToLinear } from '../math/ColorManagement.js';
 

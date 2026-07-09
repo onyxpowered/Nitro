@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { CubeReflectionMapping, CubeRefractionMapping, EquirectangularReflectionMapping, EquirectangularRefractionMapping } from '../../constants.js';
 import { PMREMGenerator } from '../../extras/PMREMGenerator.js';
 import { WebGLCubeRenderTarget } from '../WebGLCubeRenderTarget.js';

@@ -1,9 +1,9 @@
 /**
  * @license
- * Nitro¹ — By Onyx Labs
+ * Nitro — By Onyx Labs
  * SPDX-License-Identifier: MIT
  *
- * The CommonJS build of Nitro¹ is deprecated. Nitro¹ is ESM-only going forward;
+ * The CommonJS build of Nitro is deprecated. Nitro is ESM-only going forward;
  * this entry now re-exports the ES module via require(esm) and will be removed
  * in a future release.
  *

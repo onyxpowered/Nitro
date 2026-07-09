@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { DefaultLoadingManager } from './LoadingManager.js';
 
 /**
@@ -102,7 +103,7 @@ class Loader {
 
 	/**
 	 * This method needs to be implemented by all concrete loaders. It holds the
-	 * logic for parsing the asset into Nitro¹ entities.
+	 * logic for parsing the asset into Nitro entities.
 	 *
 	 * @abstract
 	 * @param {any} data - The data to parse.

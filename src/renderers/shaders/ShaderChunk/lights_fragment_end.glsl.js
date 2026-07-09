@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #if defined( RE_IndirectDiffuse )
 

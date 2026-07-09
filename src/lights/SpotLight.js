@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Light } from './Light.js';
 import { SpotLightShadow } from './SpotLightShadow.js';
 import { Object3D } from '../core/Object3D.js';

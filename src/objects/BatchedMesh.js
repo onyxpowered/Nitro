@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BufferAttribute } from '../core/BufferAttribute.js';
 import { BufferGeometry } from '../core/BufferGeometry.js';
 import { DataTexture } from '../textures/DataTexture.js';

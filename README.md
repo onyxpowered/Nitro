@@ -1,8 +1,8 @@
-# Nitro¹
+# Nitro
 
-#### A WebGL2 game engine, by Onyx Labs
+#### an html game engine, by Onyx Labs
 
-Nitro¹ is a lightweight, WebGL2-only 3D engine with a built-in physics module, purpose-built to run offline under the `file://` protocol on low-end Chromium.
+Nitro is a lightweight, WebGL2-only 3D engine with a built-in physics module, purpose-built to run offline under the `file://` protocol on low-end Chromium.
 
 ### Usage
 
@@ -45,7 +45,7 @@ function animate( time ) {
 
 ### Physics
 
-Nitro¹ ships with a built-in Physics¹ module that requires no network access:
+Nitro ships with a built-in Physics module that requires no network access:
 
 ```javascript
 import { PhysicsWorld } from 'nitro1/physics';

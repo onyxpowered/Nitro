@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import {
 	RGBAFormat,
 	FloatType
@@ -12,7 +13,7 @@ const _offsetMatrix = /*@__PURE__*/ new Matrix4();
 const _identityMatrix = /*@__PURE__*/ new Matrix4();
 
 /**
- * Class for representing the armatures in `Nitro¹`. The skeleton
+ * Class for representing the armatures in `Nitro`. The skeleton
  * is defined by a hierarchy of bones.
  *
  * ```js

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LightShadow } from './LightShadow.js';
 import { OrthographicCamera } from '../cameras/OrthographicCamera.js';
 

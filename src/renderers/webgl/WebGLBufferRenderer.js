@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLBufferRenderer( gl, extensions, info ) {
 
 	let mode;

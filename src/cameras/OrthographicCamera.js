@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Camera } from './Camera.js';
 
 /**

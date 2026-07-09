@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Uint16BufferAttribute, Uint32BufferAttribute } from '../../core/BufferAttribute.js';
 
 function WebGLGeometries( gl, attributes, info, bindingStates ) {

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #ifndef FLAT_SHADED // normal is computed with derivatives when FLAT_SHADED
 

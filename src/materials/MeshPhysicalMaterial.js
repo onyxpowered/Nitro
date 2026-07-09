@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector2 } from '../math/Vector2.js';
 import { MeshStandardMaterial } from './MeshStandardMaterial.js';
 import { Color } from '../math/Color.js';
@@ -22,7 +23,7 @@ import { clamp } from '../math/MathUtils.js';
  * - Sheen: Can be used for representing cloth and fabric materials.
  *
  * As a result of these complex shading features, `MeshPhysicalMaterial` has a
- * higher performance cost, per pixel, than other Nitro¹ materials. Most
+ * higher performance cost, per pixel, than other Nitro materials. Most
  * effects are disabled by default, and add cost as they are enabled. For
  * best results, always specify an environment map when using this material.
  *

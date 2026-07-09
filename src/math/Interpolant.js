@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * Abstract base class of interpolants over parametric samples.
  *

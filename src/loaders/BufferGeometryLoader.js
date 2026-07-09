@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Sphere } from '../math/Sphere.js';
 import { BufferAttribute } from '../core/BufferAttribute.js';
 import { BufferGeometry } from '../core/BufferGeometry.js';

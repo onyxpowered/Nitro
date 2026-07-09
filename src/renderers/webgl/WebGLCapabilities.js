@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { FloatType, HalfFloatType, RGBAFormat, UnsignedByteType } from '../../constants.js';
 import { warn } from '../../utils.js';
 

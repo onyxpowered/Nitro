@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * Interpolations contains spline and Bézier functions internally used by concrete curve classes.
  *

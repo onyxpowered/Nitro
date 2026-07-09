@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import alphahash_fragment from './ShaderChunk/alphahash_fragment.glsl.js';
 import alphahash_pars_fragment from './ShaderChunk/alphahash_pars_fragment.glsl.js';
 import alphamap_fragment from './ShaderChunk/alphamap_fragment.glsl.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #ifdef USE_BATCHING
 	#if ! defined( GL_ANGLE_multi_draw )

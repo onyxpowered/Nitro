@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector3 } from './Vector3.js';
 import { clamp } from './MathUtils.js';
 

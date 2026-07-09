@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { InstancedBufferAttribute } from '../core/InstancedBufferAttribute.js';
 import { Mesh } from './Mesh.js';
 import { Box3 } from '../math/Box3.js';

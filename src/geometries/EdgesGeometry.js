@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BufferGeometry } from '../core/BufferGeometry.js';
 import { Float32BufferAttribute } from '../core/BufferAttribute.js';
 import { DEG2RAD } from '../math/MathUtils.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export const vertex = /* glsl */`
 #include <common>
 #include <batching_pars_vertex>

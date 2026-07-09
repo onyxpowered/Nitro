@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #if defined( USE_COLOR ) || defined( USE_COLOR_ALPHA )
 

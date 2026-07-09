@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Material } from './Material.js';
 import { cloneUniforms, cloneUniformsGroups } from '../renderers/shaders/UniformsUtils.js';
 import { Color } from '../math/Color.js';

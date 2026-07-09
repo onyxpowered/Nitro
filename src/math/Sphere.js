@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Box3 } from './Box3.js';
 import { Vector3 } from './Vector3.js';
 

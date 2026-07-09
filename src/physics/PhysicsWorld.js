@@ -1,8 +1,9 @@
+// Nitro — Onyx Labs
 import { Body, Vec3, World } from './vendor/physics1.js';
 import { ShapeFactory } from './ShapeFactory.js';
 
 /**
- * A thin wrapper around a Physics¹ `World` that keeps bound `Object3D`
+ * A thin wrapper around a Physics `World` that keeps bound `Object3D`
  * transforms in sync with their physics bodies.
  *
  * ```js
@@ -29,7 +30,7 @@ class PhysicsWorld {
 		const gravity = options.gravity ?? { x: 0, y: - 9.82, z: 0 };
 
 		/**
-		 * The underlying Physics¹ world.
+		 * The underlying Physics world.
 		 *
 		 * @type {World}
 		 */

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { EllipseCurve } from './EllipseCurve.js';
 
 /**

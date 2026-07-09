@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Cache } from './Cache.js';
 import { Loader } from './Loader.js';
 import { createElementNS } from '../utils.js';

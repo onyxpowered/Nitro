@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 ﻿import { IntType } from '../../constants.js';
 
 function WebGLBindingStates( gl, attributes ) {

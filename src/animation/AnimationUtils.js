@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Quaternion } from '../math/Quaternion.js';
 import { AdditiveAnimationBlendMode } from '../constants.js';
 import { isTypedArray } from '../utils.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Vector3 } from '../../math/Vector3.js';
 import { Curve } from '../core/Curve.js';
 
@@ -18,7 +19,7 @@ function CubicPoly() {
 	- http://ideone.com/NoEbVM
 
 	This CubicPoly class could be used for reusing some variables and calculations,
-	but for Nitro¹ curve use, it could be possible inlined and flatten into a single function call
+	but for Nitro curve use, it could be possible inlined and flatten into a single function call
 	which can be placed in CurveUtils.
 	*/
 

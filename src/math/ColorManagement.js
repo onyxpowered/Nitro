@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { SRGBColorSpace, LinearSRGBColorSpace, SRGBTransfer, LinearTransfer, NoColorSpace } from '../constants.js';
 import { Matrix3 } from './Matrix3.js';
 import { warnOnce } from '../utils.js';

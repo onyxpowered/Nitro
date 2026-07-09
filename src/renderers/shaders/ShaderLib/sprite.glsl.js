@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export const vertex = /* glsl */`
 uniform float rotation;
 uniform vec2 center;

@@ -1,13 +1,14 @@
+// Nitro — Onyx Labs
 import { clamp } from './MathUtils.js';
 import { warn } from '../utils.js';
 
 /**
- * Class for representing a Quaternion. Quaternions are used in Nitro¹ to represent rotations.
+ * Class for representing a Quaternion. Quaternions are used in Nitro to represent rotations.
  *
  * Iterating through a vector instance will yield its components `(x, y, z, w)` in
  * the corresponding order.
  *
- * Note that Nitro¹ expects Quaternions to be normalized.
+ * Note that Nitro expects Quaternions to be normalized.
  * ```js
  * const quaternion = new Nitro.Quaternion();
  * quaternion.setFromAxisAngle( new Nitro.Vector3( 0, 1, 0 ), Math.PI / 2 );

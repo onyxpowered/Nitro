@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Light } from './Light.js';
 
 /**

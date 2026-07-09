@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ZeroCurvatureEnding, WrapAroundEnding, ZeroSlopeEnding } from '../../constants.js';
 import { Interpolant } from '../Interpolant.js';
 

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LinearTransfer, Matrix3, SRGBTransfer, SRGBColorSpace, ColorManagement } from 'three';
 
 /** @module ColorSpaces */

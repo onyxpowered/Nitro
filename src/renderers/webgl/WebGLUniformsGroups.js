@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { error, warn } from '../../utils.js';
 
 function WebGLUniformsGroups( gl, info, capabilities, state ) {

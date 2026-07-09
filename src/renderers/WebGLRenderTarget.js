@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { RenderTarget } from '../core/RenderTarget.js';
 
 /**

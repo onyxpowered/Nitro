@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BackSide } from '../../constants.js';
 import { getUnlitUniformColorSpace } from '../shaders/UniformsUtils.js';
 import { Matrix3 } from '../../math/Matrix3.js';

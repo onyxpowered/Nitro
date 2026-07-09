@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import MagicString from 'magic-string';
 
 function glsl() {
@@ -44,7 +45,7 @@ function header() {
 
 			code.prepend( `/**
  * @license
- * Nitro¹ — By Onyx Labs
+ * Nitro — By Onyx Labs
  * SPDX-License-Identifier: MIT
  */\n` );
 

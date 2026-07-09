@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { clamp } from '../math/MathUtils.js';
 import { warn } from '../utils.js';
 

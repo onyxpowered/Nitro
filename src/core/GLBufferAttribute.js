@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 /**
  * An alternative version of a buffer attribute with more control over the VBO.
  *

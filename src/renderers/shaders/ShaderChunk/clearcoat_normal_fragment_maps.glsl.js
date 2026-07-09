@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #ifdef USE_CLEARCOAT_NORMALMAP
 

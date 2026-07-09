@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { LinearFilter } from '../constants.js';
 import { FileLoader } from './FileLoader.js';
 import { CompressedTexture } from '../textures/CompressedTexture.js';

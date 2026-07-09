@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { WebGLLights } from './WebGLLights.js';
 
 function WebGLRenderState( extensions ) {

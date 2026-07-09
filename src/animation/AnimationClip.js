@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import * as AnimationUtils from './AnimationUtils.js';
 import { KeyframeTrack } from './KeyframeTrack.js';
 import { BooleanKeyframeTrack } from './tracks/BooleanKeyframeTrack.js';

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ClampToEdgeWrapping } from '../constants.js';
 import { CompressedTexture } from './CompressedTexture.js';
 

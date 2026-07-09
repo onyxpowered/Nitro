@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #ifdef ENVMAP_TYPE_CUBE_UV
 

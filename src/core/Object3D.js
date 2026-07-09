@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Quaternion } from '../math/Quaternion.js';
 import { Vector3 } from '../math/Vector3.js';
 import { Matrix4 } from '../math/Matrix4.js';
@@ -56,7 +57,7 @@ const _childaddedEvent = { type: 'childadded', child: null };
 const _childremovedEvent = { type: 'childremoved', child: null };
 
 /**
- * This is the base class for most objects in Nitro¹ and provides a set of
+ * This is the base class for most objects in Nitro and provides a set of
  * properties and methods for manipulating objects in 3D space.
  *
  * @augments EventDispatcher

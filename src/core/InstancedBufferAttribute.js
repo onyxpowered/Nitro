@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { BufferAttribute } from './BufferAttribute.js';
 
 /**

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Source } from './Source.js';
 import { Texture } from './Texture.js';
 import { NearestFilter, UnsignedIntType, DepthFormat, DepthStencilFormat } from '../constants.js';

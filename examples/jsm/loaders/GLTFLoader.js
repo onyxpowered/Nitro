@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import {
 	AnimationClip,
 	Bone,
@@ -2587,7 +2588,7 @@ class GLTFParser {
 		// loader object cache
 		this.cache = new GLTFRegistry();
 
-		// associations between Nitro¹ objects and glTF elements
+		// associations between Nitro objects and glTF elements
 		this.associations = new Map();
 
 		// BufferGeometry caching

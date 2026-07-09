@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Texture } from './Texture.js';
 import { CubeReflectionMapping } from '../constants.js';
 

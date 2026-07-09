@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { warnOnce } from '../../utils.js';
 
 function WebGLExtensions( gl ) {

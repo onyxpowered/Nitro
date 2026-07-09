@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 #ifndef saturate
 // <common> may have defined saturate() already

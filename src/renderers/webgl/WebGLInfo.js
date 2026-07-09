@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { error } from '../../utils.js';
 
 function WebGLInfo( gl ) {

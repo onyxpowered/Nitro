@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function painterSortStable( a, b ) {
 
 	if ( a.groupOrder !== b.groupOrder ) {

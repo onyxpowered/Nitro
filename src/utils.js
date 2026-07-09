@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { AlwaysDepth, EqualDepth, GreaterDepth, GreaterEqualDepth, LessDepth, LessEqualDepth, NeverDepth, NotEqualDepth } from './constants.js';
 
 /**
@@ -138,7 +139,7 @@ function createElementNS( name ) {
  * Creates a canvas element configured for block display.
  *
  * This is a convenience function that creates a canvas element with
- * display style set to 'block', which is commonly used in Nitro¹
+ * display style set to 'block', which is commonly used in Nitro
  * rendering contexts to avoid inline element spacing issues.
  *
  * @return {HTMLCanvasElement} A canvas element with display set to 'block'.
@@ -171,7 +172,7 @@ let _setConsoleFunction = null;
  * Sets a custom function to handle console output.
  *
  * This allows external code to intercept and handle console.log, console.warn,
- * and console.error calls made by Nitro¹, which is useful for custom logging,
+ * and console.error calls made by Nitro, which is useful for custom logging,
  * testing, or debugging workflows.
  *
  * @param {Function} fn - The function to handle console output. Should accept

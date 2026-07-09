@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Earcut } from './Earcut.js';
 
 /**

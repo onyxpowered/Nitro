@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { TangentSpaceNormalMap } from '../constants.js';
 import { Material } from './Material.js';
 import { Vector2 } from '../math/Vector2.js';

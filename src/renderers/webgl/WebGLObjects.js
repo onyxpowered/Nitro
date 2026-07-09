@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLObjects( gl, geometries, attributes, bindingStates, info ) {
 
 	let updateMap = new WeakMap();

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Path } from './Path.js';
 import { generateUUID } from '../../math/MathUtils.js';
 

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 function WebGLAnimation() {
 
 	let context = null;

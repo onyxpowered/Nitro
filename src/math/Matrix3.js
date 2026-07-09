@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { warnOnce } from '../utils.js';
 
 /**
@@ -24,7 +25,7 @@ import { warnOnce } from '../utils.js';
  * and internally all calculations are performed using column-major ordering.
  * However, as the actual ordering makes no difference mathematically and
  * most people are used to thinking about matrices in row-major order, the
- * Nitro¹ documentation shows matrices in row-major order. Just bear in
+ * Nitro documentation shows matrices in row-major order. Just bear in
  * mind that if you are reading the source code, you'll have to take the
  * transpose of any matrices outlined here to make sense of the calculations.
  */

@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { ColorManagement } from '../../math/ColorManagement.js';
 import { warn } from '../../utils.js';
 

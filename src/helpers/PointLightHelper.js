@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Mesh } from '../objects/Mesh.js';
 import { MeshBasicMaterial } from '../materials/MeshBasicMaterial.js';
 import { SphereGeometry } from '../geometries/SphereGeometry.js';

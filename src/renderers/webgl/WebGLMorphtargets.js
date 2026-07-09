@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { FloatType } from '../../constants.js';
 import { DataArrayTexture } from '../../textures/DataArrayTexture.js';
 import { Vector4 } from '../../math/Vector4.js';

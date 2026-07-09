@@ -1,7 +1,8 @@
+// Nitro — Onyx Labs
 import { Group } from './Group.js';
 
 /**
- * In earlier Nitro¹ versions, clipping was defined globally
+ * In earlier Nitro versions, clipping was defined globally
  * on the renderer or on material level. This special version of
  * `Nitro.Group` allows to encode the clipping state into the scene
  * graph. Meaning if you create an instance of this group, all

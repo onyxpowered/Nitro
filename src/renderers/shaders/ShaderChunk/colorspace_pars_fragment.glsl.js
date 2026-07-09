@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 export default /* glsl */`
 
 vec4 LinearTransferOETF( in vec4 value ) {

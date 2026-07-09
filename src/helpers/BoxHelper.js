@@ -1,3 +1,4 @@
+// Nitro — Onyx Labs
 import { Box3 } from '../math/Box3.js';
 import { LineSegments } from '../objects/LineSegments.js';
 import { LineBasicMaterial } from '../materials/LineBasicMaterial.js';
